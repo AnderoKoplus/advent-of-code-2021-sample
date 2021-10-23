@@ -1,7 +1,7 @@
 # build phase
 FROM maven:3.6.0-jdk-11-slim AS build
 COPY . /app
-RUN mvn --no-transfer-progress -f /app/pom.xml clean package
+RUN mvn -B -f /app/pom.xml clean package
 
 # run phase
 FROM openjdk:11-jre-slim
