@@ -13,7 +13,7 @@ COPY --from=build /app/day01/target/day01-1.0-SNAPSHOT-shaded.jar /app/day01.jar
 COPY data /app/data
 
 # setup input selection - this can be randomized in later stages
-ENV INPUT_DAY01=./data/day01/input.txt
+ENV INPUT_DAY01_01=./data/day01/input.txt
 
 # copy solution runner
 COPY run.sh /app

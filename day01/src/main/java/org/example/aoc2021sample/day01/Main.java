@@ -23,7 +23,7 @@ public class Main {
 
     public static void main(String[] args) throws FileNotFoundException {
         long start = System.currentTimeMillis();
-        String filename = System.getenv("INPUT_DAY01");
+        String filename = System.getenv("INPUT_DAY01_01");
         List<Integer> input = loadListOfInteger(filename);
         System.out.println(getTotalFuel(input));
         int totalFuel = 0;
