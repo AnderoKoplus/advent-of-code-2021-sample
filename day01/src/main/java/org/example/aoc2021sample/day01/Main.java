@@ -36,6 +36,7 @@ public class Main {
 
     private static int getIncrementalFuel(int mass) {
         int fuel = (mass / 3) - 2;
+
         if (fuel <= 0) {
             return 0;
         }
