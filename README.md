@@ -12,5 +12,3 @@ $ docker run --rm solution
 * can we move the cloning part to the dockerfile?
 * container, demon privileges
 
-
-
