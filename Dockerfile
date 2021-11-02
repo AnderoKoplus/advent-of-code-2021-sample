@@ -22,4 +22,3 @@ RUN chmod +x /app/run.sh
 WORKDIR /app
 
 ENTRYPOINT ["./run.sh"]
-
