@@ -5,9 +5,9 @@ do
   do
     filename="day${solution}.jar"
     if [[ -f $filename ]]; then
-      echo "> Running solution $solution/25 run $runCounter/3"
+      echo "> Running solution $solution/25 run $runCounter/5"
       java -jar "${filename}"
-      echo "> End running solution $solution/25 run $runCounter/3"
+      echo "> End running solution $solution/25 run $runCounter/5"
       sleep 5
     fi
     ((ctr++))
